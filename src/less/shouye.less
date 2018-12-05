@@ -2,3 +2,24 @@
 	margin:0;
 	padding:0;
 }
+.px2rem(@name, @px){
+    @{name}: @px / 75 * 1rem;
+}
+header{
+	height: 100px;
+	background: #1e2e45;
+	display: flex;
+	justify-content: space-around;
+	// flex-direction: column;
+	span{
+		
+		width: 54px;
+		height: 54px;
+        border-radius: 50%;
+		display: inline-block;
+		background: #e29c9c;
+	}
+	h2{
+		float: left;
+	}
+}
