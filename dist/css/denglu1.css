@@ -93,6 +93,7 @@ button {
           flex: 1;
   text-align: center;
   color: #227d17;
+  font-size: 0.53333333rem;
 }
 .body input[type="text"] {
   text-align: center;
