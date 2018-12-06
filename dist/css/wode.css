@@ -2,3 +2,113 @@
   margin: 0;
   padding: 0;
 }
+body,
+html,
+.box {
+  height: 100vh;
+  background: #ccc5c51c;
+}
+li {
+  list-style: none;
+}
+.nav {
+  height: 1.33333333rem;
+  background: #002d80c4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.nav dl {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 0.13333333rem;
+}
+.nav dl dt img {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+}
+.nav dl dd {
+  font-size: 0.4rem;
+  margin-left: 0.66666667rem;
+  color: #FFF;
+}
+.nav1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.nav1 p {
+  font-size: 0.4rem;
+  margin-left: 0.13333333rem;
+  color: #FFF;
+}
+.jin {
+  height: 1rem;
+  line-height: 1rem;
+  margin-top: 0.26666667rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid #CCCCCC;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #fff;
+}
+.jin p {
+  color: #666;
+  margin-left: 0.13333333rem;
+}
+.jin1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #fff;
+  height: 1.33333333rem;
+}
+.jin1 dl {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-right: 1px solid #CCCCCC;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.jin1 dl dt img {
+  width: 0.8rem;
+  height: 0.8rem;
+}
+.jin1 dl dd {
+  color: #666;
+  position: relative;
+}
+.jin1 dd span {
+  width: 0.53333333rem;
+  height: 0.53333333rem;
+  line-height: 0.53333333rem;
+  color: #fff;
+  background: indianred;
+  border-radius: 50%;
+  position: absolute;
+  top: -0.2rem;
+  left: 0.93333333rem;
+  text-align: center;
+}

@@ -2,48 +2,37 @@
 	margin:0;
 	padding:0;
 }
-.beijing{
-    width: 100%;
-    height: 100%;
-    position: relative;
+body,html,.box{
+    height: 100vh;
 }
-.beijing img{
-    width: 100%;
-    height: 100%; 
+ .px2rem(@name, @px){
+    @{name}: @px / 75 * 1rem;
 }
-.box{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    nav {
-        height: 54px;
-        background: green;
+    .nav {
+         .px2rem(height,200);
         display: flex;
-        line-height: 54px;
+        .px2rem(line-height,200);
+        
         p{
             flex: 1;
             text-align: center;
         }
-        one{
-            width: 20px;
-            height: 20px;
+        .one{
             color: #fff;
-            font-size: 24px;
+           .px2rem(font-size,200);
+            text-align: left;
         }
-        two{
+        .two{
             color: #fff;
         }
       }
-}
 
 input,button{
     width: 80%;
-    height: 50px;
+     .px2rem(height,200);
     text-align: center;
     margin-left: 10%;
-    margin-top: 20px;
+    .px2rem(margin-top,100);
     border: none;
     border-bottom: 2px solid #fff;
     background: none;
@@ -66,4 +55,13 @@ input[type="text"] {
 }
 input::-webkit-input-placeholder{
     color: #fff;
+}
+.pic{
+    position: absolute;
+    right: 10px;
+    top: 150px;
+    display: inline-block;
+    width: 70px;
+    height: 50px;
+    text-align: center;
 }
