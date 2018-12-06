@@ -1,8 +1,14 @@
 * {
   margin: 0;
   padding: 0;
-<<<<<<< HEAD
-=======
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+* {
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 input,
@@ -227,5 +233,4 @@ body {
   height: 100px;
   background: red;
   margin-top: 20px;
->>>>>>> c9a4e2ccc69bbf95c39b06485f0c133568f73d02
 }
