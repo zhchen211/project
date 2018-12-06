@@ -58,13 +58,10 @@ input[type="text"] {
 input::-webkit-input-placeholder {
   color: #fff;
 }
-.pic {
-  position: absolute;
-  right: 10px;
-  top: 150px;
-  display: inline-block;
-  width: 70px;
-  height: 50px;
-  text-align: center;
+<<<<<<< .mine
 }
 >>>>>>> 5f6b0d4f1b2a4a8d11d3f2521448ae74a626e79d
+=======
+}
+
+>>>>>>> .theirs
