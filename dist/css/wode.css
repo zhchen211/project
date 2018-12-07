@@ -148,7 +148,7 @@ li {
   color: #666;
   font-size: 0.26666667rem;
 }
-.footer {
+footer {
   width: 100%;
   height: 1.33333333rem;
   background: #fff;
@@ -162,16 +162,16 @@ li {
   position: fixed;
   bottom: 0rem;
 }
-.footer dl {
+footer dl {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
   text-align: center;
 }
-.footer dl dt img {
+footer dl dt img {
   width: 0.66666667rem;
   height: 0.66666667rem;
 }
-.footer dl dd {
+footer dl dd {
   color: #333;
 }
